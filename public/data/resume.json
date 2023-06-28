@@ -1,0 +1,110 @@
+{
+    "fullName": "Pedro Sousa",
+    "headline": "Senior Software Engineer",
+    "contacts": [
+        {
+            "type": "cellphone",
+            "value": "Phone: +5511977354886",
+            "link": false
+        },
+        {
+            "type": "linkedin",
+            "value": "https://linkedin.com/in/pedro-vsn",
+            "link": true
+        },
+        {
+            "type": "github",
+            "value": "https://github.com/pedrovsn",
+            "link": true
+        },
+        {
+            "type": "email",
+            "value": "pedro-vsn@hotmail.com",
+            "link": true
+        }                        
+    ],
+    "summary": "I am a senior software engineer with 7 years of experience in backend and full-stack development. My preferred stack includes Java with Spring for backend development and React for frontend. I also have proficiency in Python, NodeJS, and have worked extensively with AWS and GCP services. I have hands-on experience in creating Kubernetes environments using Amazon EKS. In addition to my technical expertise, I have a passion for continuous learning and staying updated with the latest technologies. I enjoy exploring new frameworks, tools, and expanding my knowledge base. Outside of work, I find joy in spending quality time with friends, indulging in good food and beers.",
+    "experiences": [
+        {
+            "title": "Senior Software Engineer",
+            "company": "Nexla",
+            "startDate": "2022-09-01",
+            "endDate": null,
+            "current": true,
+            "description": "<p>As a Backend Engineer, I supported and developed features for a data platform. I worked with a tech stack that included a modularized Maven application using Java and Scala with Akka HTTP for REST services. I focused on integrations using the Kafka Connect API to process over 100 billion records daily from various sources, including files, Salesforce, Google Analytics, and Facebook ADS. I also worked on integrations with databases and data warehouse products like Google BigQuery, Snowflake, and Redshift. In addition, I utilized Kubernetes, Helm Charts, Apache Spark, Ruby on Rails, and React.js for day-to-day tasks.</p>"
+        },
+        {
+            "title": "Senior Fullstack Engineer",
+            "company": "CISP",
+            "startDate": "2021-01-01",
+            "endDate": "2022-09-01",
+            "current": false,
+            "description": "<p>In my role as a Full-Stack Engineer, I led the creation of a new credit scoring system for a company&#39;s suppliers in an event-driven microservices environment. Utilizing Java, Spring Boot, Postgres, MongoDB, and Kafka, I designed and implemented the services, ensuring efficient data processing and streamlining the credit scoring process. Additionally, I took on the responsibility of deploying microservices on AWS using Kubernetes with Terraform and Helm Charts, enabling seamless and reliable deployments. I also implemented CI/CD pipelines on Jenkins for both Maven and Node services, ensuring continuous integration and deployment. With a dual focus on DevOps and FinOps, I optimized costs while delivering high-performing and reliable services, contributing to the successful delivery of the credit scoring system.</p>"
+        },
+        {
+            "title": "Team Leader",
+            "company": "HDI Seguros",
+            "startDate": "2021-01-01",
+            "endDate": "2022-09-01",
+            "current": false,
+            "description": "<p>I led a team of five developers, consisting of three backend developers and two frontend developers. We utilized Java with Spring Boot and Postgres for the backend, and Angular for the frontend. Additionally, we employed Kubernetes on the Google Cloud Platform for efficient deployment and management. I fostered collaboration and communication, ensuring the delivery of robust software solutions aligned with business goals</p>"
+        },
+        {
+            "title": "Senior Backend Engineer",
+            "company": "HDI Seguros",
+            "startDate": "2021-01-01",
+            "endDate": "2022-09-01",
+            "current": false,
+            "description": "<p>As a Backend Developer, I played a crucial role in the modernization of insurance policy services at HDI Seguros. I broke down a monolithic architecture into microservices, refactored applications for deployment on Kubernetes at GCP, and utilized MongoDB, Postgres, Pub/Sub, and Google Cloud Storage. Using Apache Camel, I orchestrated multiple services, achieving enhanced flexibility, scalability, and reliability. Collaborating with cross-functional teams, I optimized performance, resolved challenges, and ensured a smooth transition. The modernization efforts resulted in improved efficiency and an enhanced user experience.</p>"
+        },
+        {
+            "title": "Senior Backend Engineer",
+            "company": "BRQ Digital Solutions",
+            "startDate": "2019-05-01",
+            "endDate": "2020-02-01",
+            "current": false,
+            "description": "<p>As a Senior Engineer, I played a pivotal role in the digital transformation of Santander Bank installations. Leading projects built on Spring with a microservices architecture in a hybrid cloud ecosystem, I utilized Java 11, Spring Boot, Kafka, Docker, and OpenShift to deliver robust and scalable solutions. By decoupling functionalities and leveraging Kafka for real-time data processing, we achieved enhanced performance and responsiveness. With Docker and OpenShift, we ensured seamless deployment, scalability, and fault tolerance. Through coordination with cross-functional teams and alignment of project requirements, our digital transformation efforts resulted in modernized Santander Bank installations, keeping them competitive in the digital era.</p>"
+        },
+        {
+            "title": "Backend Engineer",
+            "company": "Qiwi Brasil",
+            "startDate": "2017-01-01",
+            "endDate": "2019-05-01",
+            "current": false,
+            "description": "<p>As an Entry-Level Backend Engineer, I developed Java applications for ATM machines and created APIs for credit top-up functionalities. Working with Java versions 8 and 11, I ensured secure transactions for ATM users and facilitated credit top-up for bus cards and prepaid cellphones through robust APIs. Collaborating with cross-functional teams, I delivered high-quality solutions within designated timelines, continuously learning and adopting new technologies. My contributions enhanced the user experience for ATM users and provided seamless credit top-up options.</p>"
+        }                                    
+    ],
+    "educations": [
+        {
+            "title": "Cloud Engineering and Architecture",
+            "instituition": "FIAP",
+            "startDate": "2022-09-01",
+            "endDate": "2022-09-01",
+            "current": true
+        },
+        {
+            "title": "Computer Systems Analysis",
+            "instituition": "Uninove - Universidade Nove de Julho",
+            "startDate": "2022-09-01",
+            "endDate": "2022-09-01",
+            "current": false
+        },
+        {
+            "title": "Information Technology (IT)",
+            "instituition": "IFBA - Instituto Federal de Educação, Ciência e Tecnologia da Bahia",
+            "startDate": "2022-09-01",
+            "endDate": "2022-09-01",
+            "current": false
+        }        
+    ],
+    "skills": [
+        "Programming Languages: Java, Kotlin, Scala, Python, JavaScript, TypeScript, Go", 
+        "Frameworks: Spring Boot, Spark, Akka, Express, NestJS, ReactJS, Angular",
+        "Cloud: AWS, Google Cloud",
+        "Databases: MySQL, PostgreSQL, MSSQL, MongoDB, DynamoDB, Redis, Neo4j",
+        "BigData: Apache Spark, BigQuery, Redshift, Snowflake",
+        "Messaging: RabbitMQ, Apache Kafka, ActiveMQ, Amazon SQS, Pub/Sub",
+        "DevOps: Docker, Kubernetes, CI/CD, Helm, Terraform, GitActions",
+        "Problem Solving, Web Development, API Rest, Event Driven Architecture, Unit testing, Serverless Architecture"
+    ]
+}

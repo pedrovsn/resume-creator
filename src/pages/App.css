@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('/public/Merriweather/Merriweather-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@page {
+  size: 8.5in 9in;
+  margin-top: 4in;
+  font-size: 12px;
+}
+
+/* Targets all even-numbered pages */
+@page :left {
+  margin-top: 4in;
+}
+
+/* Targets all odd-numbered pages */
+@page :right {
+  size: 11in;
+  margin-top: 4in;
+}
+
+/* Targets all selectors with `page: wide;` set */
+@page wide {
+  size: a4 landscape;
+}
+
+body {
+  font-family: 'Merriweather';
+  color: #3f4248;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.wrapper section {
+  display: block;
+  padding: 2px 0;
+}
+
+.basic h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: .375em;
+}
+
+.section {
+  display: inline-block;
+  margin: 0 .375em;
+}
+
+.section .section-title {
+  display: block;
+  padding: .375em 0;
+  margin-bottom: .375em;
+  border-bottom: 0.1em dashed #282c34;
+}
+
+.section .section-title h1 {
+  font-size: 1.125em;
+  margin: 0;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact div {
+  font-size: 0.675em;
+  padding: 0.75em;
+  margin: 0 auto;
+}
+
+.text-content {
+  font-size: 0.75em;
+  text-align: left;
+}
+
+.experience .experience-header {
+  display: block;
+}
+
+.experience .experience-header h1 {
+  font-size: 1em;
+  width: 100%;
+}
+
+.experience .experience-header h2 {
+  font-size: 0.875em;
+}
+
+.experience .experience-header .experience-title {
+  margin: 0;
+  padding: 0;
+}
+
+.experience .experience-header .experience-title h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.experience .experience-header .experience-info {
+  display: flex;
+  width: 100%;
+  font-size: 0.75em;
+}
+
+.experience .experience-header .experience-info .experience-company {
+  text-align: left;
+  width: 100%;
+}
+
+.experience .experience-header .experience-info .experience-date {
+  text-align: right;
+  width: 100%;
+}
+
+/* Education */
+
+.education-item .education-header {
+  display: block;
+}
+
+.education-item .education-header h1 {
+  font-size: 1.125em;
+  width: 100%;
+}
+
+.education-item .education-header h2 {
+  font-size: 0.75em;
+}
+
+.education-item .education-header .education-title h1 {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.education-item .education-header .education-info {
+  display: flex;
+  width: 100%;
+  font-size: 0.75em;
+}
+
+.education-item .education-header .education-info .education-company {
+  text-align: left;
+  width: 100%;
+}
+
+.education-item .education-header .education-info .education-date {
+  text-align: right;
+  width: 100%;
+}
+
+/* Skills */
+
+.skill-item {
+  display: flex;
+  margin: 0;
+  padding: 0.125em;
+  float: left;
+}
+
+.skill-item span {
+  font-size: 0.675em;
+}
